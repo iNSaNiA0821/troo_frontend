@@ -1,0 +1,159 @@
+.eth_image {
+    display: flex;
+    justify-content: center;
+}
+.balance {
+    padding: 10px;
+    font-size: 40px;
+}
+.tool_icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+.feather-arrow-up-right,.feather-git-pull-request,.feather-award {
+    color: black !important;
+}
+.theme-dark .text-1 {
+    background-color: black;
+    border: 1px solid white;
+    border-right: none;
+}
+.theme-dark .text-2 {
+    background-color: black;
+    border: 1px solid white;
+    border-left: none;
+}
+.theme-light .main-input {
+    background-color: white;
+    border: 1px solid #d0d4d7;
+    border-left: none;
+    border-right: none;
+}
+
+.error_username {
+    display: none;
+}
+.errorsign {
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #b92534;
+    background-color: #fcf2f3;
+    color: #b92534;
+    display: block;
+    text-align: center;
+}
+.main-input {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.alert-confirm-main {
+    background-color: #202327 !important;
+    width: 500px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.alert-confirm-body {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.alert-confirm-content {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.alert-confirm-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.alert-confirm-footer {
+    margin-top: 30px;
+}
+.default-button,.primary-button {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid #353a40;
+    width: 70px;
+}
+.theme-light .cancel_btn {
+    border: 1px solid black;
+    color: black;
+}
+.cancel_btn {
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.theme-light .next_btn {
+    background-color: white;
+    color: black;
+}
+.next_btn {
+    border: 1px solid white;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.theme-light .lessthan {
+    background-color: rgb(230, 230, 230);
+}
+.lessthan {
+    background-color: rgba(192, 192, 192, 0.5);
+    border: 1px solid rgba(192, 192, 192, 0.5);
+    color: gray;
+}
+.theme-light .amount {
+    background-color: white;
+    border: 1px solid #353a40;
+}
+.amount {
+    border: 1px solid white;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.more, .theme-light .more {
+    border: 1px solid red;
+}
+.less, .theme-light .less {
+    border: 1px solid green;
+}
+.moreRate {
+    color: red;
+}
+.max_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.max_btn button {
+    width: 60%;
+    border: none;
+    background-color: #202327;
+    border: 1px solid white;
+    color: white;
+}
+.theme-light .max_btn button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}

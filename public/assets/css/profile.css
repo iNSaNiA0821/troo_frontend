@@ -1,0 +1,122 @@
+.photoArea {
+  width: 70%;
+  height: 350px;
+  border: 1px solid #666b70;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.toolArea {
+  width: 25%;
+  height: 350px;
+  border: 1px solid #666b70;
+}
+
+.editbackArea {
+  width: 100% !important;
+  height: 350px;
+  border: 1px solid #666b70;
+}
+
+.spaceArea {
+  width: 5%;
+}
+/* .photoArea>.reactEasyCrop_Container {
+  min-width: 300px !important;
+  min-height: 300px !important;
+  border-radius: 50% !important;
+} */
+.photoArea>.reactEasyCrop_Container>.reactEasyCrop_CropArea {
+  min-width: 300px !important;
+  min-height: 300px !important;
+  border: 2px solid white !important;
+}
+.editbackArea>.reactEasyCrop_Container>.reactEasyCrop_CropArea {
+  border: 2px solid white !important;
+}
+.ProfileSaveBtn,.ProfileUploadBtn {
+  border: 2px solid #666b70;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 60px;
+  color: #666b70 !important;
+}
+
+.outputPhoto {
+  transform: rotate(90deg);
+}
+
+
+.mainTitle {
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainPhoto {
+  width: 250px;
+  height: 250px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.editIcon {
+  font-size: 30px !important;
+  padding: 10px;
+}
+
+.fileUpload {
+  margin-right: 200px;
+  margin-bottom: 150px;
+  border-radius: 50%;
+  color: #353a40;
+  background-color: white;
+  border: 3px solid #353a40;
+  position: absolute;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 40px !important;
+  border-radius: 50%;
+  filter: alpha(opacity=0);
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+input[type="file"] {
+  position: fixed;
+  right: 100%;
+  bottom: 100%;
+}
+
+.plusbtn,
+.minusbtn,
+.rotatebtn {
+  width: 60px;
+  height: 60px;
+  color: #666b70 !important;
+  border: 1px solid #666b70 !important;
+}
+
+.plusbtn:hover,
+.minusbtn:hover,
+.rotatebtn:hover,
+.ProfileSaveBtn:hover,
+.ProfileUploadBtn:hover {
+  box-shadow: 0px 0px 20px #666b70;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 576px) {
+  .mainTitle {
+    font-size: 30px;
+  }
+}

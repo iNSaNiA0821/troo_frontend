@@ -1,0 +1,96 @@
+
+  
+  .circleText {
+    text-align: center;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    font-size: 16px;
+    color: #0078d4;
+  }
+  
+  .hover {
+    background-color: #0078d4;
+  }
+  
+.circle {
+    position: relative;
+    background-image: url(../../public/assets/images/map_icon_std.svg);
+    color: #fff;
+    height: 64px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: -25px;
+    width: 50px;
+    transform: scale(0.5);
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+.circle p{
+  line-height: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.circle p a  {
+    color: #fe9431;
+    text-decoration: underline;
+}
+.circle p.date  {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+.circle:hover {
+    cursor: pointer;
+    transition: all 0.1s linear;
+    transform: scale(0.8) translate(0px, -10px);
+}
+.circle-detail {
+    visibility: hidden;
+    position: absolute;
+    background-color: #0078d4;
+    transform: translateY(19px);
+    top: 79%;
+    z-index: 999999;
+    width: 190px;
+    border-radius: 5px;
+    left: -71px;
+    box-shadow: 2px 2px 12px #00000080;
+    cursor: pointer;
+    padding: 5px;
+    opacity: 0;
+    transition: all 0.4s linear;
+    font-size: 13px;
+}
+.circle-detail::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #0078d4 transparent;
+}
+.circle-subdetail {
+    display: none;
+    opacity: 0;
+    transition: all 1s linear;
+}
+.circle:hover .circle-detail, .circle-detail:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.circle.active {
+    transform: scale(0.8) translate(0px, -10px);
+}
+.circle.active .circle-detail, .circle.active .circle-subdetail {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}

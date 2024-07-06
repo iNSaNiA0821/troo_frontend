@@ -1,0 +1,6 @@
+table .slick-track {
+    width: 150px !important;
+}
+table .description {
+    overflow-wrap: anywhere;
+}

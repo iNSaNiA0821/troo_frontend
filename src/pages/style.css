@@ -1,0 +1,70 @@
+/* Myfeed */
+
+.navbarArea li {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImage {
+    min-width: 100% !important;
+}
+
+.modal {
+    background: transparent;
+    width: 200px;
+    height: 200px;
+}
+
+.profilelink {
+    color: inherit;
+}
+
+.theme-light .profilelink:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.theme-dark .profilelink:hover {
+    color: inherit;
+    border-bottom: 1px solid white;
+}
+
+._Name:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.modalContent {
+    width: 100%;
+    height: 100%;
+}
+
+.mentioFns__input {
+    padding-left: 10px;
+    color: white;
+}
+
+.error textarea {
+    border: 1px solid red !important;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.tablerevertcolor {
+    color: white;
+}
+
+.theme-light .tablerevertcolor {
+    color: black;
+}
+
+.video-react-poster {
+    width: 100% !important;
+}

@@ -1,0 +1,241 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~video-react/dist/video-react.css";
+
+.redstyle {
+    color: red !important;
+}
+
+.theme-dark .nav-tabs li.active a {
+    border-bottom: 2px #ddd solid !important;
+    color: #fff !important;
+}
+
+.detail-item .date {
+    font-size: 13px !important;
+}
+
+.dropdown .dropdown-toggle {
+    background-color: transparent !important;
+    border: 0px !important;
+    padding: 0 !important;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-menu.show {
+    inset: 3px 0px auto auto !important;
+    background-color: #f5f5f5;
+}
+.dropdown-item {
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    transition: all linear 0.5s;
+}
+.dropdown-item:hover {
+    background-color: #c4c4c482;
+}
+
+.reported {
+    background: #b4b4b4;
+    color: #616161;
+    cursor: not-allowed;
+    display: block;
+}
+.reported:hover {
+    background: #b4b4b4;
+    color: #616161;
+}
+
+//upload
+.theme-dark .form-control {
+    background-color: #28282878 !important;
+}
+.mentions {
+    min-height: 100px;
+}
+.textarea-upload {
+    border-radius: 6px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #888;
+    padding: 2px 5px;
+    font-size: 12pt;
+    min-height: 100px;
+}
+.textarea-upload mark {
+    background-color: transparent !important;
+    font-weight: 800;
+}
+.theme-dark .textarea-upload {
+    background-color: #28282878 !important;
+    color: #cdcdcd;
+}
+.theme-dark .textarea-upload mark {
+    color: #cdcdcd;
+}
+.mentions__input {
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: inherit;
+    letter-spacing: inherit;
+    /* height: 100%; */
+    bottom: 0px;
+    overflow: hidden;
+    resize: auto;
+    border-radius: 6px;
+    color: #000;
+}
+.theme-dark .mentions__input {
+    color: #fff;
+}
+.mentions__suggestions {
+    border-radius: 5px;
+    background-color: #616161 !important;
+    color: #fff;
+    overflow: hidden;
+}
+.theme-dark .mentions__suggestions {
+    background-color: #fff !important;
+    color: #000;
+}
+.mentions__suggestions__item__highlight {
+    color: #02a2ed !important;
+}
+.mentions__suggestions__item--focused {
+    background-color: #242323;
+}
+.theme-dark .mentions__suggestions__item--focused {
+    background-color: #e7e7e7;
+}
+.description a {
+    color: #edc402;
+    font-weight: 800;
+}
+
+.dropdown-menu {
+    z-index: 9 !important;
+}
+
+.feed-body .nav .list-inline-item {
+    width: 25%;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.btn-round-md:hover {
+    cursor: pointer;
+}
+.feed-body img.w-100 {
+    max-width: 650px;
+}
+.main-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+}
+.theme-dark input,
+.theme-dark textarea {
+    color: #fff;
+}
+
+.main-content {
+    padding-right: 0px;
+}
+
+.map.main-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.map div {
+    height: 100%;
+}
+.map-list {
+    position: absolute;
+    right: 0;
+    /* max-height: 100%; */
+    max-height: -webkit-fill-available;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.gm-style-iw.gm-style-iw-c {
+    height: auto !important;
+    padding: 10px !important;
+}
+
+.theme-dark .gm-style-iw.gm-style-iw-c,
+.theme-dark .gm-style-iw.gm-style-iw-c div,
+.gm-style .gm-style-iw-t::after {
+    background-color: #343a40;
+    background: #343a40;
+}
+.gm-style-iw-d {
+    overflow: unset !important;
+    color: #fff;
+}
+.gm-style-iw h2,
+.gm-style-iw h5 {
+    color: #000 !important;
+    text-align: center;
+}
+.gm-style-iw-d p {
+    margin-bottom: 0px;
+}
+.gm-style-iw-d .date {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #969292;
+}
+.gm-style-iw-d p {
+    line-height: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.gm-style-iw-d p a {
+    color: #fe9431;
+    text-decoration: underline;
+}
+.map .list-group .card {
+    transition: all linear 0.3s;
+}
+.map .list-group .card:hover {
+    background-color: #565656 !important;
+    cursor: pointer;
+}
+.photoArea > .reactEasyCrop_Container > .reactEasyCrop_CropArea {
+    width: 250px !important;
+    min-width: 250px !important;
+    max-width: 250px !important;
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+    border-radius: 50% !important;
+    box-shadow: #343a40 0px 22px 70px 400px !important;
+    border: 5px solid white !important;
+}
+.editavatarIcon {
+    position: absolute !important;
+    top: 43px !important;
+    left: 143px !important;
+    cursor: pointer;
+}
+.editBackIcon {
+    position: absolute !important;
+    top: 20px !important;
+    left: -15px !important;
+    cursor: pointer;
+}
+.editbackArea > .reactEasyCrop_Container > .reactEasyCrop_CropArea {
+    border-radius: 0px !important;
+    box-shadow: #343a40 0px 22px 70px 400px !important;
+    border: 5px solid white !important;
+}
